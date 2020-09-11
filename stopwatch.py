@@ -18,11 +18,10 @@ class Stopwatch:
     start_time: datetime object
         The recorded time the stopwatch started.
     times: list
-        A list of tuples ('label', 'datetime_object') for each lap recorded.
+        A list of tuples (`label`, `datetime_object`) for each lap recorded.
         (Includes the start and stop times.)
     stop_time: datetime object
         The recorded time the stopwatch stopped.
-            
     """
     def __init__(self, auto_start=True):
         self.start_time = None
